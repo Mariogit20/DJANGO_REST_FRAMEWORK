@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTEND API-Routier ET BACKEND PYTHON DJANGO HOPES API-Routier</title>
+    
+    <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+
+
+    
+<!--
+DEBUT : MENU RESPONSIVE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::    
+DEBUT : MENU RESPONSIVE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+-->
+  <style>
+ 
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -1px;
+      
+      padding: 0;
+      margin: 0;
+    }
+    .dropdown-submenu .dropdown-menu li {
+      margin-bottom: 0;
+    }
+
+    /* Desktop hover */
+    @media (min-width: 992px) {
+      .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+      }
+    }
+
+    
+    @media (max-width: 991.98px) {
+      .dropdown-menu {
+        display: none;
+      }
+      .dropdown-menu.show {
+        display: block;
+      }
+    }
+
+  </style>
+<!--
+FIN   : MENU RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   
+FIN   : MENU RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    
+-->
+
+    <style>
+        /* Correction du décalage causé par la navbar fixed-top */
+        body {
+            padding-top: 56px; 
+        }
+
+        /* 1. Uniformisation de la zone d'image */
+        .card-img-container {
+            height: 200px; /* Hauteur fixe pour toutes les zones d'image */
+            width: 100%;
+            overflow: hidden;
+/*
+C'est une excellente question d'optimisation visuelle ! 🤔
+
+L'espace que vous voyez entre le haut de l'image et le haut de la Card est causé par la propriété CSS margin que nous avons appliquée à l'intérieur de votre index.html pour des raisons esthétiques et d'alignement.
+
+Dans votre CSS, cette ligne est responsable de l'espace :
+
+margin: 15px auto 0;      */      /* <-- CETTE LIGNE EST LE COUPABLE ! */
+
+/*            
+            margin: 15px auto 0;
+
+        L'instruction margin: 15px auto 0; signifie :
+
+    15px de marge en haut (top).
+
+    auto pour la marge gauche et droite (ce qui centre l'élément).
+
+    0 pour la marge en bas (bottom).
+*/
+
+/* MODIFICATION ICI : 0px pour la marge supérieure */
+    margin: **0px** auto 0; /* Marge supérieure maintenant à zéro */    
+        }
+
+/*
+ Que signifie le code : margin: **0px** auto 0;
+
+Le code CSS margin: **0px** auto 0; est une notation abrégée pour définir les marges externes d'un élément. Il est couramment utilisé pour centrer horizontalement un bloc dans son conteneur.
+
+Voici la signification de chaque valeur dans l'ordre Haut, Droit, Bas, Gauche (sachant que si seulement trois valeurs sont spécifiées, la valeur de gauche est la même que la valeur de droite, ici auto):
+Valeur	Position CSS équivalente	Signification
+0px	margin-top	Définit la marge supérieure à zéro.
+auto	margin-right et margin-left	Indique au navigateur de calculer une marge égale à droite et à gauche, ce qui centre horizontalement l'élément.
+0	margin-bottom	Définit la marge inférieure à zéro.
+
+En résumé pour margin: 0px auto 0; :
+
+    Marge Haut (Top): 0px (Pas d'espace en haut)
+
+    Marge Côté (Left/Right): Auto (Centrage horizontal)
+
+    Marge Bas (Bottom): 0px (Pas d'espace en bas)
+
+Dans le contexte de votre Card Bootstrap, le but était de coller l'image au haut de la carte (grâce à 0px en haut) tout en s'assurant que le conteneur d'image reste bien centré si jamais il n'occupait pas 100% de la largeur (grâce à auto).
+*/
+
+
+
+
+
+
+
+        /* 2. S'assurer que l'image remplit cet espace sans déformation */
+        .card-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Recadre et couvre l'espace */
+        }
+
+        /* 3. CLÉ DE L'UNIFORMISATION : Force le paragraphe à s'étirer dans le Flexbox */
+        /* Ceci permet au bouton d'être poussé en bas par mt-auto, quelle que soit la longueur de la description */
+        .card-body p {
+            flex-grow: 1; /* Permet à la description de prendre tout l'espace vertical disponible */
+        }
+    </style>
+</head>
+<body>
+    <header class="fixed-top">
+<!--
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">🚛 API-Routier</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search"/>
+                  <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+-->
+
+<!--
+DEBUT : MENU RESPONSIVE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::    
+DEBUT : MENU RESPONSIVE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Mon Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Service 1</a></li>
+            <li class="dropdown-submenu dropend">
+              <a class="dropdown-item dropdown-toggle" href="#">Service 2</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sous-service A</a></li>
+                <li class="dropdown-submenu dropend">
+                  <a class="dropdown-item dropdown-toggle" href="#">Sous-service B</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">B - 1</a></li>
+                    <li class="dropdown-submenu dropend">
+                      <a class="dropdown-item dropdown-toggle" href="#">B - 2</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">B - 2 - 1</a></li>
+                        <li><a class="dropdown-item" href="#">B - 2 - 2</a></li>
+                        <li><a class="dropdown-item" href="#">B - 2 - 3</a></li>
+                        <li><a class="dropdown-item" href="#">B - 2 - 4</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#">Service 3</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+        <li class="nav-item dropdown">		
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Formation</a>
+          <ul class="dropdown-menu">		
+            <li class="dropdown-submenu dropend">
+              <a class="dropdown-item dropdown-toggle" href="#">Informatique</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sous-service A</a></li>
+                <li class="dropdown-submenu dropend">
+                  <a class="dropdown-item dropdown-toggle" href="#">Langage de Programmation</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">B - 1</a></li>
+                    <li class="dropdown-submenu dropend">
+                      <a class="dropdown-item dropdown-toggle" href="#">Frontend (côté Navigateur)</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#react">React</a></li>
+                        <li><a class="dropdown-item" href="#vue">Vue</a></li>
+                        <li><a class="dropdown-item" href="#angular">Angular</a></li>
+                        <li><a class="dropdown-item" href="#jquery">JQuery</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>		
+          </ul>
+        </li>		  
+			
+        <li class="nav-item dropdown">		
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Transport</a>
+          <ul class="dropdown-menu">		
+            <li class="dropdown-submenu dropend">
+              <a class="dropdown-item dropdown-toggle" href="#">Transport de Marchandises</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sous-service A</a></li>
+                <li class="dropdown-submenu dropend">
+                  <a class="dropdown-item dropdown-toggle" href="#">Camions</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">B - 1</a></li>
+                    <li class="dropdown-submenu dropend">
+                      <a class="dropdown-item dropdown-toggle" href="#">Camions Frigorifiques</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="diapo_Javascript_Page1.html#Exemple_de_Camion_Frigorifique_1">Exemple de Camion Frigorifique 1</a></li>
+                        <li><a class="dropdown-item" href="diapo_Javascript_Page1.html#Exemple_de_Camion_Frigorifique_2">Exemple de Camion Frigorifique 2</a></li>
+                        <li><a class="dropdown-item" href="diapo_Javascript_Page1.html#Exemple_de_Camion_Frigorifique_3">Exemple de Camion Frigorifique 3</a></li>
+                        <li><a class="dropdown-item" href="diapo_Javascript_Page1.html#Exemple_de_Camion_Frigorifique_4">Exemple de Camion Frigorifique 4</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>		
+          </ul>
+        </li>		  			
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Types de camions</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_tautliner">Le camion tautliner</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_semi_remorque">Le camion semi-remorque</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_frigorifique">Le camion frigorifique</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_plateau">Le camion plateau</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_fourgon">Le camion fourgon</a></li>                  
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_porte_char">Le camion porte-char</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_benne">Le camion-benne</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_citerne">Le camion-citerne</a></li>            
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">API DJANGO Types De camions</a>
+          <ul class="dropdown-menu">
+          <!-- <ul class="dropdown-menu                 API_Types_camions">  -->
+            <div class="                 API_Types_camions"> 
+                </div>                       
+<!--
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_tautliner">Le camion tautliner</a></li>
+
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_semi_remorque">Le camion semi-remorque</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_frigorifique">Le camion frigorifique</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_plateau">Le camion plateau</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_fourgon">Le camion fourgon</a></li>                  
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_porte_char">Le camion porte-char</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_benne">Le camion-benne</a></li>
+            <li><a class="dropdown-item" href="TransportRoutier_Main.html#Le_camion_citerne">Le camion-citerne</a></li>            
+-->
+          </ul>
+        </li>
+                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--
+FIN   : MENU RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   
+FIN   : MENU RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    
+-->
+    </header>
+
+    <main> 
+        <div id="carouselExampleCaptions" class="carousel slide" >
+            </div>
+
+        <div class="container py-4">
+            <h2 class="text-center mb-4">Nos Produits Camions</h2>
+            
+            <div class="card-content"> 
+                </div>
+            
+        </div>
+
+        <hr>
+        
+        <div class="container mt-5 mb-5">
+            <h2 class="text-center text-warning mb-4">Contactez-nous</h2>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center justify-content-center" style="min-height: 400px;">
+                    <img src="image/contact.gif" alt="Image de contact" class="img-fluid" style="max-height: 400px; object-fit: contain;">
+                </div>
+                <div class="col-md-6">
+                    <form action="" method="post" id="contactForm">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom :</label>
+                            <input type="text" name="nom" id="nom" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adresse email :</label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="sms" class="form-label">Message :</label>
+                            <textarea name="message" id="sms" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning mt-2">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let Form = document.querySelector('#contactForm')
+        Form.addEventListener('submit', async (event)=>{
+            event.preventDefault() 
+            let data = {
+                nom: document.querySelector('#nom').value, 
+                email: document.querySelector('#email').value,
+                message: document.querySelector('#sms').value 
+            }
+
+            console.log("Envoi du contact - Nom:", data.nom, "Email:", data.email);
+
+            try {
+                let response = await fetch('http://127.0.0.1:8000/contact/',
+                {
+                    method: 'POST',
+                    headers: {'Content-Type':'application/json'},
+                    body : JSON.stringify(data) 
+                })
+
+                if(response.ok){
+                    alert('Message envoyé avec succès')
+                    event.target.reset()
+                } else {
+                    alert('Erreur lors de l\'envoi du message. Code: ' + response.status)
+                }
+            } catch (error) {
+                 alert('Échec de la connexion à l\'API.')
+                 console.error('Erreur Fetch pour le contact:', error);
+            }
+        })
+    </script>
+
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="js/main.js"></script>
+    <script src="js/index_html_API_camions.js"></script>
+
+<!--
+DEBUT : MENU RESPONSIVE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::    
+DEBUT : MENU RESPONSIVE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+-->    
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    const mediaQuery = window.matchMedia('(max-width: 991.98px)');
+
+    function handleMediaQueryChange(e) {
+        // e.matches est vrai si la condition est remplie (mode mobile/tablette)
+        if (e.matches) {
+            // Mode mobile/tablette : on gère l'accordéon
+            document.querySelectorAll('.dropdown-submenu > a').forEach(function (trigger) {
+                trigger.addEventListener('click', handleMobileClick);
+            });
+        } else {
+            // Mode bureau : on désactive la gestion manuelle du clic
+            document.querySelectorAll('.dropdown-submenu > a').forEach(function (trigger) {
+                trigger.removeEventListener('click', handleMobileClick);
+                // Ferme les sous-menus ouverts s'il y en a
+                const submenu = trigger.nextElementSibling;
+                if (submenu) {
+                    submenu.classList.remove('show');
+                }
+            });
+        }
+    }
+
+    function handleMobileClick(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const submenu = this.nextElementSibling;
+        const parentMenu = this.closest('.dropdown-menu');
+        
+        // Ferme les autres sous-menus ouverts
+        parentMenu.querySelectorAll('.dropdown-menu.show').forEach(function (openMenu) {
+            if (openMenu !== submenu) {
+                openMenu.classList.remove('show');
+            }
+        });
+        
+        submenu.classList.toggle('show');
+    }
+
+    // Gère le comportement initial au chargement de la page
+    handleMediaQueryChange(mediaQuery);
+
+    // Ajoute un écouteur pour les changements de média
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    // Empêche la propagation du clic sur les éléments de sous-menu pour ne pas fermer le menu principal
+    document.querySelectorAll('.dropdown-submenu').forEach(function(submenuItem) {
+        submenuItem.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+    });
+});	
+
+</script>
+<!--
+FIN   : MENU RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   
+FIN   : MENU RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    
+-->    
+
+</body>
+</html>
+
+
