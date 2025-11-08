@@ -1,0 +1,1218 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github5/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5 (master)
+$ git clone https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK.git
+Cloning into 'DJANGO_REST_FRAMEWORK'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5 (master)
+$ cd DJANGO_REST_FRAMEWORK
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (main)
+$ git branch Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (main)
+$ git checkout Test
+Switched to branch 'Test'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Test)
+$ git push --set-upstream origin Test
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK/pull/new/Test
+remote:
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK.git
+ * [new branch]      Test -> Test
+branch 'Test' set up to track 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Test)
+$ git branch Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Test)
+$ git checkoutDev
+git: 'checkoutDev' is not a git command. See 'git --help'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Test)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Dev)
+$ git push --set-upstream origin Dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Dev' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK/pull/new/Dev
+remote:
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK.git
+ * [new branch]      Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Dev)
+$ git add .gitignore
+fatal: pathspec '.gitignore' did not match any files
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Dev)
+$ cd "API BACKEND"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git commit -m "Ajout gitignore"
+[Dev e51dfad] Ajout gitignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 API BACKEND/.gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 342 bytes | 85.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK.git
+   46aa6c4..e51dfad  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git commit -m "Modification gitignore"
+[Dev 0b0af0e] Modification gitignore
+ 1 file changed, 1 insertion(+)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 359 bytes | 179.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK.git
+   e51dfad..0b0af0e  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git commit -m "first commit"
+[Dev 395e845] first commit
+ 724 files changed, 149421 insertions(+)
+ create mode 100644 API BACKEND/1DJANGO ETAPES A SUIVRE installation DJANGO.txt
+ create mode 100644 API BACKEND/API - INSTALL DjangoRestFramework.txt
+ create mode 100644 API BACKEND/API DJANGO DRF Camion.mkv
+ create mode 100644 API BACKEND/API DJANGO.txt
+ create mode 100644 API BACKEND/ERREUR et SOLUTION github 20251107.txt
+ create mode 100644 API BACKEND/INSTALL djangorestframework.txt
+ create mode 100644 API BACKEND/TransportRoutier_Main.html
+ create mode 100644 API BACKEND/api_camion/__init__.py
+ create mode 100644 API BACKEND/api_camion/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 API BACKEND/api_camion/__pycache__/settings.cpython-312.pyc
+ create mode 100644 API BACKEND/api_camion/__pycache__/urls.cpython-312.pyc
+ create mode 100644 API BACKEND/api_camion/__pycache__/wsgi.cpython-312.pyc
+ create mode 100644 API BACKEND/api_camion/asgi.py
+ create mode 100644 API BACKEND/api_camion/settings.py
+ create mode 100644 API BACKEND/api_camion/urls.py
+ create mode 100644 API BACKEND/api_camion/wsgi.py
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.babelrc.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.browserslistrc
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.bundlewatch.config.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.editorconfig
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.eslintignore
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.eslintrc.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.gitattributes
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/CODEOWNERS
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/CONTRIBUTING.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/ISSUE_TEMPLATE/bug_repor
+t.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/ISSUE_TEMPLATE/config.ym
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/ISSUE_TEMPLATE/feature_r
+equest.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/SUPPORT.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/dependabot.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/release-drafter.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/browserstack.y
+ml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/bundlewatch.ym
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/codeql.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/css.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/docs.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/js.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/lint.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/node-sass.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.github/workflows/release-notes.
+yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.gitignore
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.stylelintignore
+ create mode 100644 API BACKEND/bootstrap-5.0.2/.stylelintrc
+ create mode 100644 API BACKEND/bootstrap-5.0.2/CODE_OF_CONDUCT.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/LICENSE
+ create mode 100644 API BACKEND/bootstrap-5.0.2/README.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/SECURITY.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/.eslintrc.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/banner.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/build-plugins.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/change-version.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/generate-sri.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/postcss.config.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/rollup.config.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/svgo.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/vnu-jar.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/build/zip-examples.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/composer.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/config.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.min.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.min.css.
+map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.rtl.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.rtl.css.
+map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.rtl.min.
+css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-grid.rtl.min.
+css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.css.ma
+p
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.min.cs
+s
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.min.cs
+s.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.rtl.cs
+s
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.rtl.cs
+s.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.rtl.mi
+n.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-reboot.rtl.mi
+n.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.css
+.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.min
+.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.min
+.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.rtl
+.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.rtl
+.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.rtl
+.min.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap-utilities.rtl
+.min.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.min.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.min.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.rtl.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.rtl.css.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.rtl.min.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/css/bootstrap.rtl.min.css.m
+ap
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.bundle.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.bundle.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js.
+map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.esm.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.esm.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.esm.min.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.esm.min.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.min.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/dist/js/bootstrap.min.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/alert.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/alert.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/base-component.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/base-component.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/button.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/button.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/carousel.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/carousel.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/collapse.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/collapse.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/data.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/data.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/event-handler.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/event-handler.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/manipulator.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/manipulator.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/selector-engine.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dom/selector-engine.js.m
+ap
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dropdown.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/dropdown.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/modal.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/modal.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/offcanvas.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/offcanvas.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/popover.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/popover.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/scrollspy.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/scrollspy.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/tab.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/tab.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/toast.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/toast.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/tooltip.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/dist/tooltip.js.map
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/index.esm.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/index.umd.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/alert.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/base-component.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/button.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/carousel.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/collapse.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/dom/data.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/dom/event-handler.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/dom/manipulator.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/dom/selector-engine.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/dropdown.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/modal.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/offcanvas.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/popover.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/scrollspy.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/tab.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/toast.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/tooltip.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/util/backdrop.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/util/index.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/util/sanitizer.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/src/util/scrollbar.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/README.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/browsers.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/helpers/fixture.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/integration/bundle-modu
+larity.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/integration/bundle.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/integration/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/integration/rollup.bund
+le-modularity.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/integration/rollup.bund
+le.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/karma.conf.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/.eslintrc.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/alert.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/base-component.spe
+c.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/button.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/carousel.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/collapse.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/dom/data.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/dom/event-handler.
+spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/dom/manipulator.sp
+ec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/dom/selector-engin
+e.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/dropdown.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/jquery.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/modal.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/offcanvas.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/popover.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/scrollspy.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/tab.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/toast.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/tooltip.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/util/backdrop.spec
+.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/util/index.spec.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/util/sanitizer.spe
+c.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/unit/util/scrollbar.spe
+c.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/alert.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/button.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/carousel.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/collapse.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/dropdown.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/modal.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/popover.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/scrollspy.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/tab.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/toast.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/js/tests/visual/tooltip.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/nuget/MyGet.ps1
+ create mode 100644 API BACKEND/bootstrap-5.0.2/nuget/bootstrap.nuspec
+ create mode 100644 API BACKEND/bootstrap-5.0.2/nuget/bootstrap.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/nuget/bootstrap.sass.nuspec
+ create mode 100644 API BACKEND/bootstrap-5.0.2/package-lock.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/package.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/package.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_accordion.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_alert.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_badge.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_breadcrumb.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_button-group.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_buttons.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_card.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_carousel.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_close.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_containers.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_dropdown.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_forms.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_functions.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_grid.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_helpers.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_images.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_list-group.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_mixins.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_modal.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_nav.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_navbar.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_offcanvas.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_pagination.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_popover.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_progress.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_reboot.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_root.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_spinners.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_tables.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_toasts.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_tooltip.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_transitions.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_type.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_utilities.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/_variables.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/bootstrap-grid.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/bootstrap-reboot.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/bootstrap-utilities.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/bootstrap.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_floating-labels.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_form-check.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_form-control.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_form-range.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_form-select.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_form-text.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_input-group.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_labels.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/forms/_validation.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_clearfix.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_colored-links.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_position.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_ratio.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_stretched-link.scs
+s
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_text-truncation.sc
+ss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/helpers/_visually-hidden.sc
+ss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_alert.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_border-radius.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_box-shadow.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_breakpoints.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_buttons.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_caret.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_clearfix.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_color-scheme.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_container.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_deprecate.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_forms.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_gradients.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_grid.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_image.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_list-group.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_lists.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_pagination.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_reset-text.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_resize.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_table-variants.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_text-truncate.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_transition.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_utilities.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/mixins/_visually-hidden.scs
+s
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/utilities/_api.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/scss/vendor/_rfs.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/.eslintrc.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/js/application.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/js/search.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/js/vendor/anchor.min
+.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/js/vendor/clipboard.
+min.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_ads.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_algolia.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_anchor.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_brand.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_buttons.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_callouts.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_clipboard-js.s
+css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_colors.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_component-exam
+ples.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_content.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_footer.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_layout.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_masthead.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_navbar.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_placeholder-im
+g.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_sidebar.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_skippy.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_subnav.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_syntax.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_toc.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/_variables.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/assets/scss/docs.scss
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/404.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/_index.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/about/bran
+d.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/about/lice
+nse.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/about/over
+view.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/about/team
+.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/about/tran
+slations.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/accordion.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/alerts.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/badge.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/breadcrumb.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/button-group.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/buttons.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/card.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/carousel.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/close-button.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/collapse.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/dropdowns.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/list-group.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/modal.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/navbar.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/navs-tabs.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/offcanvas.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/pagination.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/popovers.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/progress.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/scrollspy.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/spinners.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/toasts.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/components
+/tooltips.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/content/fi
+gures.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/content/im
+ages.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/content/re
+boot.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/content/ta
+bles.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/content/ty
+pography.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+color.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+components.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+css-variables.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+optimize.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+options.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+overview.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/customize/
+sass.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/.
+stylelintrc
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/_
+index.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/a
+lbum-rtl/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/a
+lbum/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/b
+log-rtl/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/b
+log/blog.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/b
+log/blog.rtl.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/b
+log/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+arousel-rtl/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+arousel/carousel.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+arousel/carousel.rtl.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+arousel/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heatsheet-rtl/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heatsheet/cheatsheet.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heatsheet/cheatsheet.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heatsheet/cheatsheet.rtl.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heatsheet/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heckout-rtl/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heckout/form-validation.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heckout/form-validation.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+heckout/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+over/cover.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/c
+over/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/d
+ashboard-rtl/dashboard.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/d
+ashboard-rtl/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/d
+ashboard/dashboard.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/d
+ashboard/dashboard.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/d
+ashboard/dashboard.rtl.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/d
+ashboard/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/f
+eatures/features.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/f
+eatures/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/f
+eatures/unsplash-photo-1.jpg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/f
+eatures/unsplash-photo-2.jpg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/f
+eatures/unsplash-photo-3.jpg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/g
+rid/grid.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/g
+rid/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/h
+eaders/headers.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/h
+eaders/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/h
+eroes/bootstrap-docs.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/h
+eroes/bootstrap-themes.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/h
+eroes/heroes.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/h
+eroes/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/j
+umbotron/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/m
+asonry/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbar-bottom/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbar-fixed/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbar-fixed/navbar-top-fixed.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbar-static/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbar-static/navbar-top.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbars/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/n
+avbars/navbar.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/o
+ffcanvas-navbar/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/o
+ffcanvas-navbar/offcanvas.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/o
+ffcanvas-navbar/offcanvas.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/p
+ricing/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/p
+ricing/pricing.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/p
+roduct/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/p
+roduct/product.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+idebars/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+idebars/sidebars.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+idebars/sidebars.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+ign-in/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+ign-in/signin.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+tarter-template/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+tarter-template/starter-template.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+ticky-footer-navbar/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+ticky-footer-navbar/sticky-footer-navbar.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+ticky-footer/index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/examples/s
+ticky-footer/sticky-footer.css
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/extend/app
+roach.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/extend/ico
+ns.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/chec
+ks-radios.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/floa
+ting-labels.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/form
+-control.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/inpu
+t-group.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/layo
+ut.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/over
+view.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/rang
+e.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/sele
+ct.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/forms/vali
+dation.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/accessibility.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/best-practices.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/browsers-devices.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/build-tools.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/contents.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/download.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/introduction.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/javascript.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/parcel.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/rfs.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/rtl.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/getting-st
+arted/webpack.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/cl
+earfix.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/co
+lored-links.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/po
+sition.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/ra
+tio.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/st
+retched-link.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/te
+xt-truncation.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/helpers/vi
+sually-hidden.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/bre
+akpoints.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/col
+umns.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/con
+tainers.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/gri
+d.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/gut
+ters.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/uti
+lities.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/layout/z-i
+ndex.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/migration.
+md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+api.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+background.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+borders.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+colors.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+display.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+flex.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+float.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+interactions.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+overflow.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+position.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+shadows.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+sizing.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+spacing.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+text.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+vertical-align.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/5.0/utilities/
+visibility.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/_index.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/content/docs/versions.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/breakpoints.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/colors.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/core-team.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/docs-versions.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/examples.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/grays.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/icons.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/sidebar.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/theme-colors.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/data/translations.yml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/404.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/baseof.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/docs.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/examples.h
+tml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/home.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/redirect.h
+tml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/_default/single.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/alias.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/ads.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/analytics.
+html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-da
+nger-async-methods.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-in
+fo-mediaqueries-breakpoints.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-in
+fo-npm-starter.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-in
+fo-prefersreducedmotion.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-in
+fo-sanitizer.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-wa
+rning-color-assistive-technologies.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/callout-wa
+rning-input-support.md
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/docs-navba
+r.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/docs-sideb
+ar.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/docs-subna
+v.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/docs-versi
+ons.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/favicons.h
+tml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/footer.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/header.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/home/masth
+ead-followup.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/home/masth
+ead.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/boot
+strap-logo-solid.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/boot
+strap-white-fill.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/boot
+strap.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/circ
+le-square.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/clou
+d-fill.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/code
+.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/coll
+apse.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/drop
+let-fill.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/expa
+nd.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/gith
+ub.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/hamb
+urger.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/home
+page-hero.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/list
+.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/menu
+.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/open
+collective.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/slac
+k.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/icons/twit
+ter.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/redirect.h
+tml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/scripts.ht
+ml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/skippy.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/social.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/stylesheet
+.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/partials/table-cont
+ent.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/robots.txt
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/bs-table
+.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/callout.
+html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/docsref.
+html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/example.
+html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/markdown
+.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/param.ht
+ml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/partial.
+html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/placehol
+der.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/scss-doc
+s.html
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/table.ht
+ml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/shortcodes/year.htm
+l
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/layouts/sitemap.xml
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/CNAME
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/bran
+d/bootstrap-logo-black.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/bran
+d/bootstrap-logo-shadow.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/bran
+d/bootstrap-logo-white.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/bran
+d/bootstrap-logo.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/bran
+d/bootstrap-social-logo.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/bran
+d/bootstrap-social.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+bootstrap-icons.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+bootstrap-icons@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+bootstrap-themes-collage.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+bootstrap-themes-collage@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+bootstrap-themes.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+bootstrap-themes@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/album-rtl.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/album-rtl@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/album.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/album@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/blog-rtl.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/blog-rtl@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/blog.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/blog@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/carousel-rtl.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/carousel-rtl@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/carousel.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/carousel@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/cheatsheet-rtl.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/cheatsheet-rtl@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/cheatsheet.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/cheatsheet@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/checkout-rtl.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/checkout-rtl@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/checkout.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/checkout@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/cover.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/cover@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/dashboard-rtl.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/dashboard-rtl@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/dashboard.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/dashboard@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/features.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/features@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/grid.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/grid@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/headers.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/headers@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/heroes.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/heroes@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/jumbotron.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/jumbotron@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/masonry.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/masonry@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbar-bottom.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbar-bottom@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbar-fixed.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbar-fixed@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbar-static.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbar-static@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbars.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/navbars@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/offcanvas-navbar.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/offcanvas-navbar@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/pricing.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/pricing@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/product.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/product@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sidebars.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sidebars@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sign-in.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sign-in@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/starter-template.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/starter-template@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sticky-footer-navbar.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sticky-footer-navbar@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sticky-footer.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+examples/sticky-footer@2x.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/android-chrome-192x192.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/android-chrome-512x512.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/apple-touch-icon.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/favicon-16x16.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/favicon-32x32.png
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/favicon.ico
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/manifest.json
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/img/
+favicons/safari-pinned-tab.svg
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/docs/5.0/assets/js/v
+alidate-forms.js
+ create mode 100644 API BACKEND/bootstrap-5.0.2/site/static/sw.js
+ create mode 100644 API BACKEND/camions/__init__.py
+ create mode 100644 API BACKEND/camions/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/__pycache__/admin.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/__pycache__/apps.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/__pycache__/models.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/__pycache__/serializers.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/__pycache__/urls.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/__pycache__/views.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/admin.py
+ create mode 100644 API BACKEND/camions/apps.py
+ create mode 100644 API BACKEND/camions/migrations/0001_initial.py
+ create mode 100644 API BACKEND/camions/migrations/0002_alter_camions_nom.py
+ create mode 100644 API BACKEND/camions/migrations/__init__.py
+ create mode 100644 API BACKEND/camions/migrations/__pycache__/0001_initial.cpyt
+hon-312.pyc
+ create mode 100644 API BACKEND/camions/migrations/__pycache__/0002_alter_camion
+s_nom.cpython-312.pyc
+ create mode 100644 API BACKEND/camions/migrations/__pycache__/__init__.cpython-
+312.pyc
+ create mode 100644 API BACKEND/camions/models.py
+ create mode 100644 API BACKEND/camions/serializers.py
+ create mode 100644 API BACKEND/camions/tests.py
+ create mode 100644 API BACKEND/camions/urls.py
+ create mode 100644 API BACKEND/camions/views.py
+ create mode 100644 API BACKEND/contact/__init__.py
+ create mode 100644 API BACKEND/contact/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/__pycache__/admin.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/__pycache__/apps.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/__pycache__/models.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/__pycache__/serializers.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/__pycache__/urls.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/__pycache__/views.cpython-312.pyc
+ create mode 100644 API BACKEND/contact/admin.py
+ create mode 100644 API BACKEND/contact/apps.py
+ create mode 100644 API BACKEND/contact/migrations/0001_initial.py
+ create mode 100644 API BACKEND/contact/migrations/__init__.py
+ create mode 100644 API BACKEND/contact/migrations/__pycache__/0001_initial.cpyt
+hon-312.pyc
+ create mode 100644 API BACKEND/contact/migrations/__pycache__/__init__.cpython-
+312.pyc
+ create mode 100644 API BACKEND/contact/models.py
+ create mode 100644 API BACKEND/contact/serializers.py
+ create mode 100644 API BACKEND/contact/tests.py
+ create mode 100644 API BACKEND/contact/urls.py
+ create mode 100644 API BACKEND/contact/views.py
+ create mode 100644 API BACKEND/db.sqlite3
+ create mode 100644 API BACKEND/diapo_Javascript_Page1.html
+ create mode 100644 API BACKEND/image/camion-benne.JPG
+ create mode 100644 API BACKEND/image/camion-citerne.JPG
+ create mode 100644 API BACKEND/image/camion-routier.JPG
+ create mode 100644 API BACKEND/image/camion_fourgon.JPG
+ create mode 100644 API BACKEND/image/camion_frigorifique.JPG
+ create mode 100644 API BACKEND/image/camion_plateau.JPG
+ create mode 100644 API BACKEND/image/camion_porte-char.JPG
+ create mode 100644 API BACKEND/image/camion_semi-remorque.JPG
+ create mode 100644 API BACKEND/image/camion_tautliner.JPG
+ create mode 100644 API BACKEND/image/image_Terre.jpg
+ create mode 100644 API BACKEND/image/img_lights_wide.jpg
+ create mode 100644 API BACKEND/image/img_mountains_wide.jpg
+ create mode 100644 API BACKEND/image/img_snow_wide.jpg
+ create mode 100644 API BACKEND/manage.py
+ create mode 100644 API BACKEND/pip show django-cors-headers.txt
+ create mode 100644 API BACKEND/requirements.txt
+ create mode 100644 API BACKEND/static/image/produits/arnold_schwarzenegger_jeun
+e4.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion-benne.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion-citerne.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_fourgon.JPG
+ create mode 100644 API BACKEND/static/image/produits/camion_fourgon_0yw9a4N.JPG
+ create mode 100644 API BACKEND/static/image/produits/camion_fourgon_AjY5HIa.JPG
+ create mode 100644 API BACKEND/static/image/produits/camion_fourgon_lBQ0DVK.JPG
+ create mode 100644 API BACKEND/static/image/produits/camion_frigorifique.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_frigorifique_D2YpAg
+5.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_frigorifique_SLrZV7
+V.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_frigorifique_pSFURD
+f.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_plateau.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_plateau_I2OSMOL.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_plateau_T8TLXL3.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_plateau_mVgTUQF.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_porte-char.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_semi-remorque.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_semi-remorque_SxeYp
+rp.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_semi-remorque_q4HFo
+Cx.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_semi-remorque_qkS7m
+HE.jpg
+ create mode 100644 API BACKEND/static/image/produits/camion_tautliner.JPG
+ create mode 100644 API BACKEND/static/image/produits/camion_tautliner_3xrnNcl.J
+PG
+ create mode 100644 API BACKEND/static/image/produits/camion_tautliner_CeUBD1Y.J
+PG
+ create mode 100644 API BACKEND/static/image/produits/camion_tautliner_zCQvJb3.J
+PG
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ git push
+Enumerating objects: 806, done.
+Counting objects: 100% (806/806), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (780/780), done.
+Writing objects: 100% (804/804), 29.96 MiB | 16.17 MiB/s, done.
+Total 804 (delta 101), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (101/101), done.
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK.git
+   0b0af0e..395e845  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/API BACKEND (Dev)
+$ cd ..
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK (Dev)
+$ cd "Camion_FRONTEND"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github5/DJANGO_REST_FRAMEWORK/Camion_FRONTEND (Dev)
+$
