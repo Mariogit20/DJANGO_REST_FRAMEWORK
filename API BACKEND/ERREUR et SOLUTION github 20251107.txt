@@ -1,0 +1,3009 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github3/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3 (master)
+$ git clone https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND.git     Cloning into 'DJANGO_REST_FRAMEWORK_BACKEND'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3 (master)
+$ cd DJANGO_REST_FRAMEWORK_BACKEND
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (main)
+$ git branch Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (main)
+$ git checkout Test
+Switched to branch 'Test'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Test)
+$ git push --set-upstream origin Test
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND/pull/ne
+w/Test
+remote:
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND.git
+ * [new branch]      Test -> Test
+branch 'Test' set up to track 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Test)
+$ git branch Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Test)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push --set-upstream origin Dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Dev' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND/pull/ne
+w/Dev
+remote:
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND.git
+ * [new branch]      Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "Ajout gitignore"
+On branch Dev
+Your branch is up to date with 'origin/Dev'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        1DJANGO ETAPES A SUIVRE installation DJANGO.txt
+        API - INSTALL DjangoRestFramework.txt
+        API DJANGO DRF Camion.mkv
+        DJANGO_RESTFRAMEWORK_BACKEND/
+        DJANGO_RESTFRAMEWORK_FRONTEND/
+        pip show django-cors-headers.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "Ajout gitignore"
+[Dev 2f087e1] Ajout gitignore
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND.git
+   fd4a32f..2f087e1  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "Modification gitignore"
+On branch Dev
+Your branch is up to date with 'origin/Dev'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1DJANGO ETAPES A SUIVRE installation DJANGO.txt
+        API - INSTALL DjangoRestFramework.txt
+        API DJANGO DRF Camion.mkv
+        DJANGO_RESTFRAMEWORK_BACKEND/
+        DJANGO_RESTFRAMEWORK_FRONTEND/
+        pip show django-cors-headers.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "Modification gitignore"
+On branch Dev
+Your branch is up to date with 'origin/Dev'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1DJANGO ETAPES A SUIVRE installation DJANGO.txt
+        API - INSTALL DjangoRestFramework.txt
+        API DJANGO DRF Camion.mkv
+        DJANGO_RESTFRAMEWORK_BACKEND/
+        DJANGO_RESTFRAMEWORK_FRONTEND/
+        pip show django-cors-headers.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "Modification gitignore"
+On branch Dev
+Your branch is up to date with 'origin/Dev'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1DJANGO ETAPES A SUIVRE installation DJANGO.txt
+        API - INSTALL DjangoRestFramework.txt
+        API DJANGO DRF Camion.mkv
+        DJANGO_RESTFRAMEWORK_BACKEND/
+        DJANGO_RESTFRAMEWORK_FRONTEND/
+        pip show django-cors-headers.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "second commit"
+[Dev 560a696] second commit
+ 1380 files changed, 291678 insertions(+)
+ create mode 100644 1DJANGO ETAPES A SUIVRE installation DJANGO.txt
+ create mode 100644 API - INSTALL DjangoRestFramework.txt
+ create mode 100644 API DJANGO DRF Camion.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/1DJANGO ETAPES A SUIVRE install
+ation DJANGO.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-10-28 10-09-42 API DJANGO
+DRF Camion Partie1.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-05 06-58-16 API DJANGO
+DRF Camion Partie2.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-05 10-54-44 API DJANGO
+DRF Camion Partie3.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 08-33-38 API DJANGO
+DRF Camion Partie4.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 14-33-07 API DJANGO
+DRF Camion Partie5.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 15-06-50 API DJANGO
+DRF Camion Partie7.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/API - INSTALL DjangoRestFramewo
+rk.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/API DJANGO.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/INSTALL djangorestframework.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/TransportRoutier_Main.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/__init__.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/__pycache__/__init__
+.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/__pycache__/settings
+.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/__pycache__/urls.cpy
+thon-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/__pycache__/wsgi.cpy
+thon-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/asgi.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/settings.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/urls.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/api_camion/wsgi.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.babelrc.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.browserslistrc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.bundlewatch.co
+nfig.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.editorconfig
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.eslintignore
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.eslintrc.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.gitattributes
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/CODEOWN
+ERS
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/CONTRIB
+UTING.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/ISSUE_T
+EMPLATE/bug_report.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/ISSUE_T
+EMPLATE/config.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/ISSUE_T
+EMPLATE/feature_request.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/SUPPORT
+.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/dependa
+bot.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/release
+-drafter.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/browserstack.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/bundlewatch.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/codeql.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/css.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/docs.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/js.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/lint.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/node-sass.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.github/workflo
+ws/release-notes.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.gitignore
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.stylelintignor
+e
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/.stylelintrc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/CODE_OF_CONDUCT
+.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/LICENSE
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/README.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/SECURITY.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/.eslintrc
+.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/banner.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/build-plu
+gins.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/change-ve
+rsion.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/generate-
+sri.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/postcss.c
+onfig.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/rollup.co
+nfig.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/svgo.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/vnu-jar.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/build/zip-examp
+les.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/composer.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/config.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-grid.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-reboot.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap-utilities.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/css/bootst
+rap.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.bundle.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.bundle.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.bundle.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.bundle.min.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.esm.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.esm.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.esm.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.esm.min.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/dist/js/bootstr
+ap.min.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/alert.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/alert.j
+s.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/base-co
+mponent.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/base-co
+mponent.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/button.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/button.
+js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/carouse
+l.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/carouse
+l.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/collaps
+e.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/collaps
+e.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/dat
+a.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/dat
+a.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/eve
+nt-handler.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/eve
+nt-handler.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/man
+ipulator.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/man
+ipulator.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/sel
+ector-engine.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dom/sel
+ector-engine.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dropdow
+n.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/dropdow
+n.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/modal.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/modal.j
+s.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/offcanv
+as.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/offcanv
+as.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/popover
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/popover
+.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/scrolls
+py.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/scrolls
+py.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/tab.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/tab.js.
+map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/toast.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/toast.j
+s.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/tooltip
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/dist/tooltip
+.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/index.esm.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/index.umd.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/alert.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/base-com
+ponent.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/button.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/carousel
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/collapse
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/dom/data
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/dom/even
+t-handler.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/dom/mani
+pulator.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/dom/sele
+ctor-engine.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/dropdown
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/modal.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/offcanva
+s.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/popover.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/scrollsp
+y.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/tab.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/toast.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/tooltip.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/util/bac
+kdrop.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/util/ind
+ex.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/util/san
+itizer.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/src/util/scr
+ollbar.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/README
+.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/browse
+rs.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/helper
+s/fixture.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/integr
+ation/bundle-modularity.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/integr
+ation/bundle.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/integr
+ation/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/integr
+ation/rollup.bundle-modularity.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/integr
+ation/rollup.bundle.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/karma.
+conf.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/.
+eslintrc.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/a
+lert.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/b
+ase-component.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/b
+utton.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/c
+arousel.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/c
+ollapse.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/d
+om/data.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/d
+om/event-handler.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/d
+om/manipulator.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/d
+om/selector-engine.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/d
+ropdown.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/j
+query.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/m
+odal.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/o
+ffcanvas.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/p
+opover.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/s
+crollspy.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/t
+ab.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/t
+oast.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/t
+ooltip.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/u
+til/backdrop.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/u
+til/index.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/u
+til/sanitizer.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/unit/u
+til/scrollbar.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/alert.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/button.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/carousel.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/collapse.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/dropdown.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/modal.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/popover.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/scrollspy.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/tab.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/toast.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/js/tests/visual
+/tooltip.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/nuget/MyGet.ps1
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/nuget/bootstrap
+.nuspec
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/nuget/bootstrap
+.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/nuget/bootstrap
+.sass.nuspec
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/package-lock.js
+on
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/package.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/package.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_accordion
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_alert.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_badge.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_breadcrum
+b.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_button-gr
+oup.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_buttons.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_card.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_carousel.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_close.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_container
+s.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_dropdown.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_forms.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_functions
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_grid.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_helpers.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_images.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_list-grou
+p.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_mixins.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_modal.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_nav.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_navbar.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_offcanvas
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_paginatio
+n.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_popover.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_progress.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_reboot.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_root.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_spinners.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_tables.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_toasts.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_tooltip.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_transitio
+ns.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_type.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_utilities
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/_variables
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/bootstrap-
+grid.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/bootstrap-
+reboot.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/bootstrap-
+utilities.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/bootstrap.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_flo
+ating-labels.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_for
+m-check.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_for
+m-control.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_for
+m-range.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_for
+m-select.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_for
+m-text.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_inp
+ut-group.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_lab
+els.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/forms/_val
+idation.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_c
+learfix.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_c
+olored-links.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_p
+osition.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_r
+atio.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_s
+tretched-link.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_t
+ext-truncation.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/helpers/_v
+isually-hidden.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_al
+ert.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_bo
+rder-radius.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_bo
+x-shadow.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_br
+eakpoints.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_bu
+ttons.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_ca
+ret.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_cl
+earfix.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_co
+lor-scheme.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_co
+ntainer.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_de
+precate.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_fo
+rms.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_gr
+adients.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_gr
+id.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_im
+age.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_li
+st-group.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_li
+sts.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_pa
+gination.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_re
+set-text.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_re
+size.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_ta
+ble-variants.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_te
+xt-truncate.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_tr
+ansition.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_ut
+ilities.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/mixins/_vi
+sually-hidden.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/utilities/
+_api.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/scss/vendor/_rf
+s.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/.eslintrc.
+json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/js/
+application.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/js/
+search.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/js/
+vendor/anchor.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/js/
+vendor/clipboard.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_ads.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_algolia.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_anchor.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_brand.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_buttons.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_callouts.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_clipboard-js.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_colors.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_component-examples.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_content.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_footer.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_layout.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_masthead.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_navbar.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_placeholder-img.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_sidebar.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_skippy.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_subnav.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_syntax.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_toc.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/_variables.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/assets/scs
+s/docs.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/40
+4.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/_index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/about/brand.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/about/license.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/about/overview.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/about/team.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/about/translations.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/accordion.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/alerts.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/badge.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/breadcrumb.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/button-group.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/buttons.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/card.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/carousel.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/close-button.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/collapse.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/dropdowns.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/list-group.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/modal.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/navbar.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/navs-tabs.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/offcanvas.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/pagination.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/popovers.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/progress.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/scrollspy.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/spinners.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/toasts.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/components/tooltips.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/content/figures.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/content/images.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/content/reboot.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/content/tables.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/content/typography.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/color.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/components.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/css-variables.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/optimize.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/options.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/overview.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/customize/sass.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/.stylelintrc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/_index.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/album-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/album/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/blog-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/blog/blog.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/blog/blog.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/blog/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/carousel-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/carousel/carousel.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/carousel/carousel.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/carousel/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cheatsheet-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cheatsheet/cheatsheet.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cheatsheet/cheatsheet.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cheatsheet/cheatsheet.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cheatsheet/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/checkout-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/checkout/form-validation.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/checkout/form-validation.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/checkout/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cover/cover.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/cover/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/dashboard-rtl/dashboard.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/dashboard-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/dashboard/dashboard.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/dashboard/dashboard.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/dashboard/dashboard.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/dashboard/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/features/features.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/features/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/features/unsplash-photo-1.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/features/unsplash-photo-2.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/features/unsplash-photo-3.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/grid/grid.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/grid/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/headers/headers.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/headers/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/heroes/bootstrap-docs.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/heroes/bootstrap-themes.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/heroes/heroes.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/heroes/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/jumbotron/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/masonry/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbar-bottom/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbar-fixed/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbar-fixed/navbar-top-fixed.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbar-static/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbar-static/navbar-top.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbars/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/navbars/navbar.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/offcanvas-navbar/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/offcanvas-navbar/offcanvas.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/offcanvas-navbar/offcanvas.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/pricing/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/pricing/pricing.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/product/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/product/product.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sidebars/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sidebars/sidebars.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sidebars/sidebars.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sign-in/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sign-in/signin.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/starter-template/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/starter-template/starter-template.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sticky-footer-navbar/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sticky-footer-navbar/sticky-footer-navbar.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sticky-footer/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/examples/sticky-footer/sticky-footer.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/extend/approach.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/extend/icons.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/checks-radios.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/floating-labels.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/form-control.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/input-group.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/layout.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/overview.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/range.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/select.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/forms/validation.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/accessibility.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/best-practices.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/browsers-devices.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/build-tools.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/contents.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/download.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/introduction.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/javascript.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/parcel.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/rfs.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/rtl.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/getting-started/webpack.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/clearfix.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/colored-links.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/position.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/ratio.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/stretched-link.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/text-truncation.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/helpers/visually-hidden.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/breakpoints.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/columns.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/containers.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/grid.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/gutters.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/utilities.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/layout/z-index.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/migration.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/api.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/background.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/borders.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/colors.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/display.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/flex.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/float.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/interactions.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/overflow.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/position.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/shadows.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/sizing.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/spacing.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/text.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/vertical-align.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/5.0/utilities/visibility.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/_index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/content/do
+cs/versions.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/break
+points.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/color
+s.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/core-
+team.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/docs-
+versions.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/examp
+les.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/grays
+.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/icons
+.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/sideb
+ar.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/theme
+-colors.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/data/trans
+lations.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/404.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/baseof.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/docs.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/examples.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/home.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/redirect.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/_d
+efault/single.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/al
+ias.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/ads.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/analytics.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-danger-async-methods.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-info-mediaqueries-breakpoints.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-info-npm-starter.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-info-prefersreducedmotion.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-info-sanitizer.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-warning-color-assistive-technologies.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/callout-warning-input-support.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/docs-navbar.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/docs-sidebar.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/docs-subnav.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/docs-versions.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/favicons.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/footer.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/header.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/home/masthead-followup.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/home/masthead.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/bootstrap-logo-solid.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/bootstrap-white-fill.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/bootstrap.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/circle-square.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/cloud-fill.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/code.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/collapse.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/droplet-fill.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/expand.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/github.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/hamburger.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/homepage-hero.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/list.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/menu.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/opencollective.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/slack.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/icons/twitter.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/redirect.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/scripts.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/skippy.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/social.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/stylesheet.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/pa
+rtials/table-content.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/ro
+bots.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/bs-table.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/callout.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/docsref.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/example.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/markdown.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/param.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/partial.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/placeholder.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/scss-docs.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/table.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/sh
+ortcodes/year.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/layouts/si
+temap.xml
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/CNA
+ME
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/brand/bootstrap-logo-black.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/brand/bootstrap-logo-shadow.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/brand/bootstrap-logo-white.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/brand/bootstrap-logo.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/brand/bootstrap-social-logo.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/brand/bootstrap-social.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/bootstrap-icons.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/bootstrap-icons@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/bootstrap-themes-collage.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/bootstrap-themes-collage@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/bootstrap-themes.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/bootstrap-themes@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/album-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/album-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/album.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/album@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/blog-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/blog-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/blog.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/blog@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/carousel-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/carousel-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/carousel.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/carousel@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/cheatsheet-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/cheatsheet-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/cheatsheet.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/cheatsheet@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/checkout-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/checkout-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/checkout.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/checkout@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/cover.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/cover@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/dashboard-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/dashboard-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/dashboard.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/dashboard@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/features.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/features@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/grid.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/grid@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/headers.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/headers@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/heroes.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/heroes@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/jumbotron.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/jumbotron@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/masonry.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/masonry@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbar-bottom.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbar-bottom@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbar-fixed.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbar-fixed@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbar-static.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbar-static@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbars.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/navbars@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/offcanvas-navbar.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/offcanvas-navbar@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/pricing.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/pricing@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/product.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/product@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sidebars.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sidebars@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sign-in.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sign-in@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/starter-template.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/starter-template@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sticky-footer-navbar.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sticky-footer-navbar@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sticky-footer.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/examples/sticky-footer@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/android-chrome-192x192.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/android-chrome-512x512.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/apple-touch-icon.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/favicon-16x16.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/favicon-32x32.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/favicon.ico
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/manifest.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/img/favicons/safari-pinned-tab.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/doc
+s/5.0/assets/js/validate-forms.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/bootstrap-5.0.2/site/static/sw.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__init__.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/__init__.cp
+ython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/admin.cpyth
+on-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/apps.cpytho
+n-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/models.cpyt
+hon-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/serializers
+.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/urls.cpytho
+n-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/__pycache__/views.cpyth
+on-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/admin.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/apps.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/migrations/0001_initial
+.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/migrations/0002_alter_c
+amions_nom.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/migrations/__init__.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/migrations/__pycache__/
+0001_initial.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/migrations/__pycache__/
+0002_alter_camions_nom.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/migrations/__pycache__/
+__init__.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/models.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/serializers.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/tests.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/urls.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/camions/views.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__init__.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/__init__.cp
+ython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/admin.cpyth
+on-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/apps.cpytho
+n-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/models.cpyt
+hon-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/serializers
+.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/urls.cpytho
+n-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/__pycache__/views.cpyth
+on-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/admin.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/apps.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/migrations/0001_initial
+.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/migrations/__init__.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/migrations/__pycache__/
+0001_initial.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/migrations/__pycache__/
+__init__.cpython-312.pyc
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/models.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/serializers.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/tests.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/urls.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/contact/views.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/db.sqlite3
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/diapo_Javascript_Page1.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion-benne.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion-citerne.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion-routier.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion_fourgon.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion_frigorifique.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion_plateau.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion_porte-char.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion_semi-remorque.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/camion_tautliner.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/image_Terre.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/img_lights_wide.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/img_mountains_wide.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/image/img_snow_wide.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/manage.py
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/requirements.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/arnold_sc
+hwarzenegger_jeune4.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion-be
+nne.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion-ci
+terne.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fo
+urgon.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fo
+urgon_0yw9a4N.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fo
+urgon_AjY5HIa.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fo
+urgon_lBQ0DVK.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fr
+igorifique.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fr
+igorifique_D2YpAg5.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fr
+igorifique_SLrZV7V.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_fr
+igorifique_pSFURDf.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_pl
+ateau.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_pl
+ateau_I2OSMOL.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_pl
+ateau_T8TLXL3.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_pl
+ateau_mVgTUQF.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_po
+rte-char.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_se
+mi-remorque.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_se
+mi-remorque_SxeYprp.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_se
+mi-remorque_q4HFoCx.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_se
+mi-remorque_qkS7mHE.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_ta
+utliner.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_ta
+utliner_3xrnNcl.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_ta
+utliner_CeUBD1Y.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/static/image/produits/camion_ta
+utliner_zCQvJb3.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/.vscode/settings.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/2025-10-28 10-09-42 API DJANGO
+ DRF Camion Partie1.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/2025-11-05 06-58-16 API DJANGO
+ DRF Camion Partie2.mkv
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/TransportRoutier_Main.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.babelrc.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.browserslistr
+c
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.bundlewatch.c
+onfig.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.editorconfig
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.eslintignore
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.eslintrc.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.gitattributes
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/CODEOW
+NERS
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/CONTRI
+BUTING.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/ISSUE_
+TEMPLATE/bug_report.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/ISSUE_
+TEMPLATE/config.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/ISSUE_
+TEMPLATE/feature_request.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/SUPPOR
+T.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/depend
+abot.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/releas
+e-drafter.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/browserstack.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/bundlewatch.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/codeql.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/css.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/docs.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/js.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/lint.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/node-sass.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.github/workfl
+ows/release-notes.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.gitignore
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.stylelintigno
+re
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/.stylelintrc
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/CODE_OF_CONDUC
+T.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/LICENSE
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/README.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/SECURITY.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/.eslintr
+c.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/banner.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/build-pl
+ugins.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/change-v
+ersion.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/generate
+-sri.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/postcss.
+config.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/rollup.c
+onfig.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/svgo.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/vnu-jar.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/build/zip-exam
+ples.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/composer.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/config.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-grid.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-reboot.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap-utilities.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.rtl.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.rtl.min.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/css/boots
+trap.rtl.min.css.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.bundle.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.bundle.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.bundle.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.bundle.min.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.esm.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.esm.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.esm.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.esm.min.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/dist/js/bootst
+rap.min.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/alert.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/alert.
+js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/base-c
+omponent.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/base-c
+omponent.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/button
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/button
+.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/carous
+el.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/carous
+el.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/collap
+se.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/collap
+se.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/da
+ta.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/da
+ta.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/ev
+ent-handler.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/ev
+ent-handler.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/ma
+nipulator.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/ma
+nipulator.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/se
+lector-engine.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dom/se
+lector-engine.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dropdo
+wn.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/dropdo
+wn.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/modal.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/modal.
+js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/offcan
+vas.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/offcan
+vas.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/popove
+r.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/popove
+r.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/scroll
+spy.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/scroll
+spy.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/tab.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/tab.js
+.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/toast.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/toast.
+js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/toolti
+p.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/dist/toolti
+p.js.map
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/index.esm.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/index.umd.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/alert.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/base-co
+mponent.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/button.
+js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/carouse
+l.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/collaps
+e.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/dom/dat
+a.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/dom/eve
+nt-handler.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/dom/man
+ipulator.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/dom/sel
+ector-engine.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/dropdow
+n.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/modal.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/offcanv
+as.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/popover
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/scrolls
+py.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/tab.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/toast.j
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/tooltip
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/util/ba
+ckdrop.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/util/in
+dex.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/util/sa
+nitizer.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/src/util/sc
+rollbar.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/READM
+E.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/brows
+ers.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/helpe
+rs/fixture.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/integ
+ration/bundle-modularity.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/integ
+ration/bundle.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/integ
+ration/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/integ
+ration/rollup.bundle-modularity.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/integ
+ration/rollup.bundle.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/karma
+.conf.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+.eslintrc.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+alert.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+base-component.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+button.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+carousel.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+collapse.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+dom/data.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+dom/event-handler.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+dom/manipulator.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+dom/selector-engine.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+dropdown.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+jquery.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+modal.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+offcanvas.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+popover.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+scrollspy.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+tab.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+toast.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+tooltip.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+util/backdrop.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+util/index.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+util/sanitizer.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/unit/
+util/scrollbar.spec.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/alert.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/button.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/carousel.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/collapse.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/dropdown.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/modal.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/popover.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/scrollspy.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/tab.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/toast.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/js/tests/visua
+l/tooltip.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/nuget/MyGet.ps
+1
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/nuget/bootstra
+p.nuspec
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/nuget/bootstra
+p.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/nuget/bootstra
+p.sass.nuspec
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/package-lock.j
+son
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/package.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/package.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_accordio
+n.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_alert.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_badge.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_breadcru
+mb.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_button-g
+roup.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_buttons.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_card.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_carousel
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_close.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_containe
+rs.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_dropdown
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_forms.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_function
+s.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_grid.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_helpers.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_images.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_list-gro
+up.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_mixins.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_modal.sc
+ss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_nav.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_navbar.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_offcanva
+s.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_paginati
+on.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_popover.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_progress
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_reboot.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_root.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_spinners
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_tables.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_toasts.s
+css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_tooltip.
+scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_transiti
+ons.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_type.scs
+s
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_utilitie
+s.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/_variable
+s.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/bootstrap
+-grid.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/bootstrap
+-reboot.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/bootstrap
+-utilities.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/bootstrap
+.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_fl
+oating-labels.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_fo
+rm-check.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_fo
+rm-control.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_fo
+rm-range.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_fo
+rm-select.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_fo
+rm-text.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_in
+put-group.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_la
+bels.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/forms/_va
+lidation.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+clearfix.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+colored-links.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+position.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+ratio.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+stretched-link.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+text-truncation.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/helpers/_
+visually-hidden.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_a
+lert.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_b
+order-radius.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_b
+ox-shadow.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_b
+reakpoints.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_b
+uttons.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_c
+aret.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_c
+learfix.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_c
+olor-scheme.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_c
+ontainer.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_d
+eprecate.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_f
+orms.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_g
+radients.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_g
+rid.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_i
+mage.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_l
+ist-group.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_l
+ists.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_p
+agination.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_r
+eset-text.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_r
+esize.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_t
+able-variants.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_t
+ext-truncate.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_t
+ransition.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_u
+tilities.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/mixins/_v
+isually-hidden.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/utilities
+/_api.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/scss/vendor/_r
+fs.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/.eslintrc
+.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/js
+/application.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/js
+/search.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/js
+/vendor/anchor.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/js
+/vendor/clipboard.min.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_ads.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_algolia.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_anchor.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_brand.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_buttons.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_callouts.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_clipboard-js.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_colors.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_component-examples.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_content.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_footer.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_layout.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_masthead.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_navbar.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_placeholder-img.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_sidebar.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_skippy.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_subnav.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_syntax.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_toc.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/_variables.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/assets/sc
+ss/docs.scss
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/4
+04.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/_index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/about/brand.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/about/license.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/about/overview.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/about/team.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/about/translations.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/accordion.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/alerts.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/badge.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/breadcrumb.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/button-group.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/buttons.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/card.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/carousel.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/close-button.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/collapse.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/dropdowns.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/list-group.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/modal.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/navbar.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/navs-tabs.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/offcanvas.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/pagination.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/popovers.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/progress.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/scrollspy.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/spinners.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/toasts.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/components/tooltips.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/content/figures.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/content/images.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/content/reboot.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/content/tables.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/content/typography.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/color.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/components.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/css-variables.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/optimize.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/options.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/overview.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/customize/sass.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/.stylelintrc
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/_index.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/album-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/album/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/blog-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/blog/blog.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/blog/blog.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/blog/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/carousel-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/carousel/carousel.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/carousel/carousel.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/carousel/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cheatsheet-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cheatsheet/cheatsheet.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cheatsheet/cheatsheet.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cheatsheet/cheatsheet.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cheatsheet/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/checkout-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/checkout/form-validation.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/checkout/form-validation.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/checkout/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cover/cover.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/cover/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/dashboard-rtl/dashboard.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/dashboard-rtl/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/dashboard/dashboard.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/dashboard/dashboard.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/dashboard/dashboard.rtl.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/dashboard/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/features/features.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/features/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/features/unsplash-photo-1.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/features/unsplash-photo-2.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/features/unsplash-photo-3.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/grid/grid.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/grid/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/headers/headers.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/headers/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/heroes/bootstrap-docs.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/heroes/bootstrap-themes.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/heroes/heroes.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/heroes/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/jumbotron/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/masonry/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbar-bottom/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbar-fixed/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbar-fixed/navbar-top-fixed.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbar-static/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbar-static/navbar-top.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbars/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/navbars/navbar.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/offcanvas-navbar/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/offcanvas-navbar/offcanvas.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/offcanvas-navbar/offcanvas.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/pricing/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/pricing/pricing.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/product/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/product/product.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sidebars/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sidebars/sidebars.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sidebars/sidebars.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sign-in/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sign-in/signin.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/starter-template/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/starter-template/starter-template.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sticky-footer-navbar/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sticky-footer-navbar/sticky-footer-navbar.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sticky-footer/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/examples/sticky-footer/sticky-footer.css
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/extend/approach.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/extend/icons.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/checks-radios.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/floating-labels.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/form-control.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/input-group.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/layout.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/overview.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/range.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/select.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/forms/validation.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/accessibility.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/best-practices.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/browsers-devices.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/build-tools.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/contents.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/download.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/introduction.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/javascript.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/parcel.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/rfs.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/rtl.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/getting-started/webpack.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/clearfix.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/colored-links.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/position.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/ratio.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/stretched-link.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/text-truncation.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/helpers/visually-hidden.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/breakpoints.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/columns.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/containers.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/grid.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/gutters.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/utilities.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/layout/z-index.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/migration.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/api.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/background.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/borders.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/colors.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/display.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/flex.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/float.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/interactions.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/overflow.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/position.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/shadows.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/sizing.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/spacing.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/text.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/vertical-align.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/5.0/utilities/visibility.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/_index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/content/d
+ocs/versions.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/brea
+kpoints.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/colo
+rs.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/core
+-team.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/docs
+-versions.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/exam
+ples.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/gray
+s.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/icon
+s.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/side
+bar.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/them
+e-colors.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/data/tran
+slations.yml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/404.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/baseof.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/docs.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/examples.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/home.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/redirect.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/_
+default/single.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/a
+lias.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/ads.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/analytics.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-danger-async-methods.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-info-mediaqueries-breakpoints.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-info-npm-starter.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-info-prefersreducedmotion.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-info-sanitizer.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-warning-color-assistive-technologies.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/callout-warning-input-support.md
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/docs-navbar.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/docs-sidebar.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/docs-subnav.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/docs-versions.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/favicons.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/footer.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/header.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/home/masthead-followup.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/home/masthead.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/bootstrap-logo-solid.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/bootstrap-white-fill.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/bootstrap.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/circle-square.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/cloud-fill.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/code.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/collapse.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/droplet-fill.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/expand.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/github.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/hamburger.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/homepage-hero.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/list.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/menu.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/opencollective.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/slack.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/icons/twitter.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/redirect.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/scripts.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/skippy.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/social.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/stylesheet.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/p
+artials/table-content.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/r
+obots.txt
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/bs-table.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/callout.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/docsref.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/example.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/markdown.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/param.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/partial.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/placeholder.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/scss-docs.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/table.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+hortcodes/year.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/layouts/s
+itemap.xml
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/CN
+AME
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/brand/bootstrap-logo-black.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/brand/bootstrap-logo-shadow.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/brand/bootstrap-logo-white.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/brand/bootstrap-logo.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/brand/bootstrap-social-logo.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/brand/bootstrap-social.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/bootstrap-icons.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/bootstrap-icons@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/bootstrap-themes-collage.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/bootstrap-themes-collage@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/bootstrap-themes.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/bootstrap-themes@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/album-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/album-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/album.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/album@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/blog-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/blog-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/blog.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/blog@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/carousel-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/carousel-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/carousel.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/carousel@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/cheatsheet-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/cheatsheet-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/cheatsheet.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/cheatsheet@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/checkout-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/checkout-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/checkout.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/checkout@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/cover.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/cover@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/dashboard-rtl.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/dashboard-rtl@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/dashboard.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/dashboard@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/features.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/features@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/grid.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/grid@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/headers.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/headers@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/heroes.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/heroes@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/jumbotron.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/jumbotron@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/masonry.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/masonry@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbar-bottom.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbar-bottom@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbar-fixed.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbar-fixed@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbar-static.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbar-static@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbars.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/navbars@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/offcanvas-navbar.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/offcanvas-navbar@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/pricing.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/pricing@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/product.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/product@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sidebars.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sidebars@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sign-in.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sign-in@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/starter-template.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/starter-template@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sticky-footer-navbar.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sticky-footer-navbar@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sticky-footer.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/examples/sticky-footer@2x.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/android-chrome-192x192.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/android-chrome-512x512.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/apple-touch-icon.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/favicon-16x16.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/favicon-32x32.png
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/favicon.ico
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/manifest.json
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/img/favicons/safari-pinned-tab.svg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/do
+cs/5.0/assets/js/validate-forms.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/bootstrap-5.0.2/site/static/sw
+.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/diapo_Javascript_Page1.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/image/contact.gif
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/image/stock-vector-186615066-m
+-2015.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/index.html
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/js/index_html_API_camions.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/js/main.js
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion-benn
+e.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion-cite
+rne.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion-rout
+ier.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion_four
+gon.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion_frig
+orifique.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion_plat
+eau.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion_port
+e-char.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion_semi
+-remorque.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/camion_taut
+liner.JPG
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/image_Terre
+.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/img_lights_
+wide.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/img_mountai
+ns_wide.jpg
+ create mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/media/static/image/img_snow_wi
+de.jpg
+ create mode 100644 pip show django-cors-headers.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 824, done.
+Counting objects: 100% (824/824), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (793/793), done.
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (823/823), 1.85 GiB | 8.65 MiB/s, done.
+Total 823 (delta 108), reused 0 (delta 0), pack-reused 0 (from 0)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add *
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "third commit"
+On branch Dev
+Your branch is ahead of 'origin/Dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 824, done.
+Counting objects: 100% (824/824), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (793/793), done.
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (823/823), 1.85 GiB | 8.24 MiB/s, done.
+Total 823 (delta 108), reused 0 (delta 0), pack-reused 0 (from 0)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git add *
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git commit -m "fourth commit"
+[Dev 6d4bb12] fourth commit
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-10-28 10-09-42 API DJANGO
+DRF Camion Partie1.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-05 06-58-16 API DJANGO
+DRF Camion Partie2.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-05 10-54-44 API DJANGO
+DRF Camion Partie3.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 08-33-38 API DJANGO
+DRF Camion Partie4.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 14-33-07 API DJANGO
+DRF Camion Partie5.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 15-06-50 API DJANGO
+DRF Camion Partie7.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/2025-10-28 10-09-42 API DJANGO
+ DRF Camion Partie1.mkv
+ delete mode 100644 DJANGO_RESTFRAMEWORK_FRONTEND/2025-11-05 06-58-16 API DJANGO
+ DRF Camion Partie2.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 828, done.
+Counting objects: 100% (828/828), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (797/797), done.
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (827/827), 1.85 GiB | 8.47 MiB/s, done.
+Total 827 (delta 109), reused 0 (delta 0), pack-reused 0 (from 0)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git config --global http.postBuffer 524288000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 837, done.
+Counting objects: 100% (837/837), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (806/806), done.
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (836/836), 1.85 GiB | 7.05 MiB/s, done.
+Total 836 (delta 117), reused 0 (delta 0), pack-reused 0 (from 0)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git config --global http.postBuffer 1048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 837, done.
+Counting objects: 100% (837/837), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (806/806), done.
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (836/836), 1.85 GiB | 4.66 MiB/s, done.
+Total 836 (delta 118), reused 0 (delta 0), pack-reused 0 (from 0)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git config --global http.postBuffer 2^C8576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+Enumerating objects: 837, done.
+Counting objects: 100% (837/837), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (806/806), done.
+Writing objects: 100% (836/836), 1.85 GiB | 10.91 MiB/s, done.
+Total 836 (delta 116), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (116/116), done.
+remote: warning: File DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 14-33-07 API DJANG
+O DRF Camion Partie5.mkv is 87.99 MB; this is larger than GitHub's recommended m
+aximum file size of 50.00 MB
+remote: error: Trace: dd85d67eb77afffa195f4ded0c44de2f28106b3b5e07d6c685a760dce6
+a224bf
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File DJANGO_RESTFRAMEWORK_BACKEND/2025-11-05 06-58-16 API DJANGO
+DRF Camion Partie2.mkv is 367.31 MB; this exceeds GitHub's file size limit of 10
+0.00 MB
+remote: error: File DJANGO_RESTFRAMEWORK_BACKEND/2025-11-07 08-33-38 API DJANGO
+DRF Camion Partie4.mkv is 374.32 MB; this exceeds GitHub's file size limit of 10
+0.00 MB
+remote: error: File DJANGO_RESTFRAMEWORK_BACKEND/2025-10-28 10-09-42 API DJANGO
+DRF Camion Partie1.mkv is 538.30 MB; this exceeds GitHub's file size limit of 10
+0.00 MB
+remote: error: File DJANGO_RESTFRAMEWORK_BACKEND/2025-11-05 10-54-44 API DJANGO
+DRF Camion Partie3.mkv is 557.19 MB; this exceeds GitHub's file size limit of 10
+0.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File S
+torage - https://git-lfs.github.com.
+To https://github.com/Mariogit20/DJANGO_REST_FRAMEWORK_BACKEND.git
+ ! [remote rejected] Dev -> Dev (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Mariogit20/DJANGO_REST_FR
+AMEWORK_BACKEND.git'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$
+
+--------------------------------------------------------------------------------------------------------------------------
+
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github3/DJANGO_REST_FRAMEWORK_BACKEND (Dev)
+$ git push
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+https://gemini.google.com/app/cadf8c4099ce158c?hl=fr
+
+https://gemini.google.com/app/cadf8c4099ce158c?hl=fr
+
+https://gemini.google.com/app/cadf8c4099ce158c?hl=fr
+
+
+
+
+
+
+
+

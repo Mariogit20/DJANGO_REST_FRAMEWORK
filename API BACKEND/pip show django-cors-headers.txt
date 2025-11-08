@@ -1,0 +1,109 @@
+Required-by:
+(venv) PS D:\PYTHON DRF BACKEND> pip list
+Package             Version
+asgiref             3.10.0
+Django              5.2.7
+django-cors-headers 4.9.0
+djangorestframework 3.16.1
+pillow              12.0.0
+pip                 25.2
+sqlparse            0.5.3
+tzdata              2025.2
+(venv) PS D:\PYTHON DRF BACKEND> pip show django-cors-headers
+Name: django-cors-headers
+Version: 4.9.0
+rver headers required for Cross-Origin Resource Sharing (CORS).
+Home-page:
+Author:
+Author-email: Otto Yiu <otto@live.ca>
+License-Expression: MIT
+Location: D:\PYTHON DRF BACKEND\venv\Lib\site-packages
+Requires: asgiref, django
+Required-by:
+(venv) PS D:\PYTHON DRF BACKEND> pip list
+Package             Version
+asgiref             3.10.0
+Django              5.2.7
+django-cors-headers 4.9.0
+djangorestframework 3.16.1
+pillow              12.0.0
+pip                 25.2
+sqlparse            0.5.3
+tzdata              2025.2
+(venv) PS D:\PYTHON DRF BACKEND> pip show django-cors-headers
+Name: django-cors-headers
+Version: 4.9.0
+Summary: django-cors-headers is a Django application for handling the se
+rver headers required for Cross-Origin Resource Sharing (CORS).
+Home-page:
+Author-email: Otto Yiu <otto@live.ca>
+License-Expression: MIT
+Location: D:\PYTHON DRF BACKEND\venv\Lib\site-packages
+Requires: asgiref, django
+Required-by:
+(venv) PS D:\PYTHON DRF BACKEND> py manage.py runserver
+C:\Program Files\Python3_12_4\python.exe: can't open file 'D:\\PYTHON DRF BACKEND\\manage.py': [Errno 2] No such file or directory
+(venv) PS D:\PYTHON DRF BACKEND> cd src
+(venv) PS D:\PYTHON DRF BACKEND\src> py manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+Django version 5.2.7, using settings 'crud_api.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[22/Oct/2025 14:40:28] "GET /static/image/produits/Business-Development.PNG HTTP/1.1" 200 611
+[22/Oct/2025 14:40:36] "GET /static/image/produits/Business-Development.PNG HTTP/1.1" 200 611
+(venv) PS D:\PYTHON DRF BACKEND\src> py manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 22, 2025 - 14:45:40
+Django version 5.2.7, using settings 'crud_api.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[22/Oct/2025 14:51:28] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:28] "GET /static/image/produits/Business-Development.PNG HTTP/1.1" 200 611
+[22/Oct/2025 14:51:38] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:39] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:40] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:43] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:43] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:44] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:51:45] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:52:15] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:52:16] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:52:17] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:52:19] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:52:21] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:52:22] "GET /api/produits/ HTTP/1.1" 200 199
+Not Found: /favicon.ico
+[22/Oct/2025 14:53:00,671] - Broken pipe from ('127.0.0.1', 37138)
+[22/Oct/2025 14:53:24] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:53:26] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 14:55:05] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 15:01:26] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 15:01:26] "GET /static/image/produits/Business-Development.PNG HTTP/1.1" 304 0
+[22/Oct/2025 15:01:27] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 15:01:28] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 15:09:52] "GET /api/produits/ HTTP/1.1" 200 199
+[22/Oct/2025 15:09:52] "GET /api/produits/ HTTP/1.1" 200 199
+
+ *  History restored 
+
+
+PS D:\PYTHON DRF BACKEND>
+
+
+
+
+
+
+
